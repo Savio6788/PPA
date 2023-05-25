@@ -75,7 +75,7 @@ lab_dica = Label(perfil, image=dica_img)
 lab_dica.place(x=0, y=0, relwidth=1, relheight=1)
 
 # Design da quarta tela
-game_img = PhotoImage(file="perguntas.png")
+game_img = PhotoImage(file="home.png")
 lab_game = Label(game, image=game_img)
 lab_game.place(x=0, y=0, relwidth=1, relheight=1)
 
@@ -118,7 +118,7 @@ label_status = Label(janela, text="")
     #  login.withdraw()
     #  perfil.deiconify()
 
-continuar_img = PhotoImage(file="continuar.png")
+continuar_img = PhotoImage(file="next.png")
 continuar = Button(login, image=continuar_img, borderwidth=0, command=validar_login)
 #continuar.bind("<Button-1>", on_click2)
 continuar.configure(bg="#F9B233")
